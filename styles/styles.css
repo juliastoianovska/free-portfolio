@@ -1,0 +1,245 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+.top-section {
+  background-color: #3c8bfe;
+  min-height: 100vh;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.wrapper {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__cookies {
+  background-color: #194277;
+  font-size: 14px;
+  color: white;
+  padding: 10px 0px;
+  text-align: center;
+}
+
+.cookies__button {
+  background-color: white;
+  color: #194277;
+  border-radius: 10px;
+  border-style: none;
+  padding: 2px 10px;
+  margin-left: 20px;
+}
+
+.cookies__button:hover {
+  font-weight: bold;
+}
+
+.top-section__header {
+  font-size: 50px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.2;
+  margin: 30px 0;
+}
+
+.top-section__text {
+  color: white;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.top-section__button {
+  background-color: white;
+  color: #3c8bfe;
+  font-size: 16px;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 25px;
+  padding: 15px 45px;
+  margin: 50px 0;
+}
+
+.top-section__button:hover {
+  background-color: #194277;
+  color: white;
+  border-color: white;
+}
+
+.top-section__logo {
+  width: 20%;
+}
+
+.fa-arrow-down {
+  color: #77b4ff;
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.fa-arrow-down:hover {
+  color: #ffffff;
+}
+
+.about-me {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  min-height: 60vh;
+}
+
+.about-me__wrapper {
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me__heading {
+  font-size: 50px;
+  color: #3677fd;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.about-me__text {
+  font-size: 16px;
+  color: #5a5a5a;
+  line-height: 2;
+  text-align: center;
+}
+
+.expert-in {
+  background-color: #f1f8ff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.expert-in__element {
+  max-width: 280px;
+  text-align: center;
+  padding: 20px;
+}
+
+.expert-in__heading {
+  font-size: 50px;
+  color: #3677fd;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.expert-in__title {
+  font-size: 24px;
+  color: #3677fd;
+  font-weight: bold;
+  padding: 45px 0 20px;
+}
+
+.expert-in__text {
+  line-height: 2;
+}
+
+.expert-in__wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content:space-around;
+}
+
+.latest-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.latest-works__heading {
+  font-size: 50px;
+  color: #3677fd;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.latest-works__wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content:space-around;
+}
+
+.embed {
+  width: 280px;
+  height: 240px;
+}
+
+.clients {
+  background-color: #f1f8ff;
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.clients__wrapper {
+  max-width: 1000px;
+  display: flex;
+  flex-flow: wrap;
+  justify-content:space-around;
+}
+
+.clients__heading {
+  font-size: 50px;
+  color: #3677fd;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.clients__embed {
+  padding: 0 35px;
+  filter: grayscale(100%) opacity(0.36);
+ -webkit-filter: grayscale(100%) opacity(0.36);
+}
+
+.footer {
+  background-color: #3c8bfe;
+  min-height: 35vh;
+  color: #FFFFFF;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__button {
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  background-color: #ffffff;
+  color: #3c8bfe;
+  text-transform: uppercase;
+  border-radius: 25px;
+  border-style: none;
+  padding: 12px 50px;
+  margin-left: 100px;
+}
+
+.footer__button:hover {
+  background-color: #194277;
+  color: white;
+  border-color: white;
+}
+
+.footer__wrapper {
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

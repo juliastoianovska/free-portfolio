@@ -1,0 +1,26 @@
+<svg id="Profile_Picture.svg" xmlns="http://www.w3.org/2000/svg" width="185" height="185" viewBox="0 0 185 185">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        opacity: 0.09;
+      }
+
+      .cls-2 {
+        opacity: 0.06;
+      }
+
+      .cls-3 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <circle id="Elipsa_2" data-name="Elipsa 2" class="cls-1" cx="92" cy="92" r="82"/>
+  <circle id="Elipsa_2_kopia_2" data-name="Elipsa 2 kopia 2" class="cls-2" cx="92.5" cy="92.5" r="92.5"/>
+  <circle id="main_logo.svg" class="cls-3" cx="91.5" cy="91.5" r="70.5"/>
+</svg>
